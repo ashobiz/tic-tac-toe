@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #70af85;
+  font-family: sans-serif;
+}
+.app .container{
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+.app .message{
+  text-align: center;
+  margin: 10px 0 20px 0;
+  background: #f0e2d0;
+  display: inline-block;
+  padding:8px 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 13px;
+  color: #725748;
+  transition: all 0.4s;
+  font-weight: bold;
+}
+.app .boxes{
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px #666;
+}
+.app .box{
+  width: 33.333%;
+  height: 33.333%;
+  float: left;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: inset 0px 0px 70px #eee;
+  text-align: center;
+  font-size: 70px;
+  color: #888;
+  padding-top: 25px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 500px){
+  .app .boxes{
+    width: 300px;
+    height: 300px;
+  }
+  .app .box{
+    font-size: 40px;
+  }
+}
+.app .score{
+  margin: 20px 0;
+  background: #fafafa;
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 14px;
+  box-shadow: 0px 0px 25px #666;
+}
+.app .score b{
+  color: green;
+}
+.app button{
+  appearance: none;
+  background: #94725f;
+  border: 1px solid #7e6151;
+  color: #ffffff;
+  padding: 8px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+.app button:hover{
+  background: #725748;
+}
+footer{
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px #555;
+}
